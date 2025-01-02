@@ -11,8 +11,7 @@ This compose setup pulls the code from the remote git repositories and provides 
 - Run the docker compose command: `docker-compose up -d`.
 
 **Voila! That's it—you should now be up and running and see a screen similar to this one:**
-
-
+<img width="687" alt="image" src="https://github.com/user-attachments/assets/c0fb5904-adeb-4c21-90d9-2ea577e4f790" />
 
 **Now go to the browser and access the NewsFeed app at [http://localhost:3000](http://localhost:3000). (Change the port 3000 to the one you added in the .env file)**
 
