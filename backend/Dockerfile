@@ -43,8 +43,6 @@ COPY --from=composer /app .
 
 COPY --from=composer /app/.env.example .env
 
-# COPY .env.example .env
-
 RUN chown -R www-data:www-data \
     /var/www/html/storage \
     /var/www/html/bootstrap/cache

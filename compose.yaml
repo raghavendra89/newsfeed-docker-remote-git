@@ -41,7 +41,7 @@ services:
       args:
         BACKEND_PORT: ${BACKEND_PORT}
     ports:
-      - ${FRONTEND_PORT}:3000
+      - ${FRONTEND_PORT}:${FRONTEND_PORT}
     volumes:
       - ./frontend/src:/code/src
       - /project/node_modules
