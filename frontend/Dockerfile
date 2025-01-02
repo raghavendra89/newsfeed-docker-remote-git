@@ -17,4 +17,7 @@ RUN npm i -g serve
 
 RUN npm run build
 
-CMD [ "serve", "-s", "dist" ]
+ARG FRONTEND_PORT
+ENV FRONTEND_PORT=${FRONTEND_PORT}
+
+CMD serve -s -p ${FRONTEND_PORT} dist
